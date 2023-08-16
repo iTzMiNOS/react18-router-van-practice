@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    background-color: #FFF7ED;
+}
+
+
+.bold{
+    font-weight: bolder;
+}
+
+
+.nav--container{
+    background-color: #FFF7ED;
+    font-family: 'Inter',sans-serif;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    
+}
+.nav--main{
+    height: auto;
+    padding: 30px;
+    display:flex;
+    justify-content: space-between;
+    align-self: center;
+    
+}
+.nav--menu{
+    display: flex;
+}
+.nav--menu--item{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main--container{
+    font-family: 'Inter',sans-serif;
+    text-align: center;
+    padding:100px;
+    width:auto;
+    height: 350px;
+    color:white;
+    background-image: url('Images/home-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+}
+.main--title{
+    text-align: left;
+    font-size: 60px;
+    background-color: transparent;
+}
+.main--content{
+    text-align: left;
+    font-size: 32px;
+    background-color: transparent;
+}
+.main--button{
+    margin-top: 100px;
+    width:fit-content;
+    height:60px;
+    width: 100%;
+    background-color: #FF8C38;
+    border-radius: 5px;
+    border:none;
+    font-size: 24px;
+    color:white;
+}
+.footer--container{
+    text-align: center;
+}
+.footer--content{
+    color: #AAAAAA;
+    font-family: 'Inter',sans-serif;
+    background-color: #252525;
+    padding: 25px;
+}
+
+.about--main{
+    font-family: 'Inter',sans-serif;
+}
+
+.about--image{
+    width:100%;
+    object-fit: cover;
+}
+
+.about--title{
+    text-align: left;
+    font-size: 60px;
+    padding: 100px;
+}
+
+.about--content{
+    padding: 100px;
+    padding-top: 0;
+    font-size: 32px;
+}
+.about--bottom{
+    text-align: left;
+    background-color: #FF8C38;
+    margin: 100px;
+    border-radius: 5px;
+    
+}
+.about--title--second{
+    text-align: left;
+    background-color: #FF8C38;
+    font-size: 40px;
+    margin: 100px;
+    padding-top:40px;
+    margin-bottom: 50px;
+}
+.about--button{
+    text-align: center;
+    margin: 100px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding: 20px;
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+    border:none;
+    font-size: 24px;
+    width:30%;
+}
